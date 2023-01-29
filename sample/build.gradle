@@ -66,9 +66,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.0'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    // transition
+    // fast-flow-layout
     implementation project(path: ':flow-layout')
-//    implementation 'com.gitee.arcns:fast-flow-layout:1.0.0'
+//    implementation 'com.gitee.arcns:fast-flow-layout:1.0.2'
     // other
     implementation 'com.gitee.arcns.arc-fast:rounded:1.18.3'
     implementation 'com.gitee.arcns.arc-fast:text-view:1.18.3'
