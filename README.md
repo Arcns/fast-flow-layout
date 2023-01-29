@@ -3,6 +3,7 @@
 [![](https://jitpack.io/v/com.gitee.arcns/fast-flow-layout.svg)](https://jitpack.io/#com.gitee.arcns/fast-flow-layout)
 
 > 一个优雅的Android的流布局，支持均匀分布自动间距，支持展开、收缩功能，并且可以约束展开时的行数与收缩时的行数。
+
 > 感谢[nex3z/FlowLayout](https://github.com/nex3z/FlowLayout)，本项目是在该项目的基础上进行扩展开发。
 
 #### 1.集成方式：
