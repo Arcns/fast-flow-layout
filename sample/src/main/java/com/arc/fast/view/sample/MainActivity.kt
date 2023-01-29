@@ -26,11 +26,11 @@ class MainActivity : AppCompatActivity() {
             data.add("tag_$i")
         }
         binding.flow1.adapter = FastFlowAdapter(
+            layoutRes = R.layout.layout_tag,
             data = data,
-            onCreateItem = { layoutInflater, parent, item, position ->
-                return@FastFlowAdapter LayoutTagBinding.inflate(layoutInflater, null, false).apply {
-                    tvTag.text = item
-                }.root
+            convert = { layout, item, position ->
+                val tvTag = layout.findViewById<TextView>(R.id.tv_tag)
+                tvTag.text = item
             },
             onItemClick = { layout, item, position ->
                 Toast.makeText(this@MainActivity, item, Toast.LENGTH_SHORT).show()
@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
             },
             onCreateExpand = { layoutInflater, parent ->
                 return@FastFlowAdapter LayoutTagBinding.inflate(layoutInflater, null, false).apply {
+                    tvTag.setBackgroundColor(resources.getColor(android.R.color.holo_blue_light))
                     tvTag.text = "展开"
                 }.root
             },

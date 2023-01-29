@@ -37,7 +37,8 @@
                 android:id="@+id/flow1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:fastFlowLayout_childSpacing="12dp"
+                app:fastFlowLayout_childSpacing="auto"
+                app:fastFlowLayout_minChildSpacing="12dp"
                 app:fastFlowLayout_rowSpacing="12dp" />
 
             <com.arc.fast.view.FastFlowLayout
