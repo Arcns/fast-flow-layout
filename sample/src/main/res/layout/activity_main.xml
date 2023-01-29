@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        paddingBottomSystemWindowInsets="@{true}"
+        paddingTopSystemWindowInsets="@{true}"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/app_name"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/styleToolbarTitle" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.arc.fast.view.FastFlowLayout
+                android:id="@+id/flow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:fastFlowLayout_childSpacing="12dp"
+                app:fastFlowLayout_rowSpacing="12dp" />
+
+            <com.arc.fast.view.FastFlowLayout
+                android:id="@+id/flow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                app:fastFlowLayout_childSpacing="12dp"
+                app:fastFlowLayout_expandRows="4"
+                app:fastFlowLayout_rowSpacing="12dp"
+                app:fastFlowLayout_shrinkRows="2" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

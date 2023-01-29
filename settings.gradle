@@ -1,0 +1,3 @@
+rootProject.name = "fast-flow-layout"
+include ':flow-layout'
+include ':sample'

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FastFlowLayout">
+        <attr name="fastFlowLayout_flow" format="boolean" />
+        <attr name="fastFlowLayout_childSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536" />
+        </attr>
+        <attr name="fastFlowLayout_minChildSpacing" format="dimension" />
+        <attr name="fastFlowLayout_childSpacingForLastRow" format="enum|dimension">
+            <enum name="auto" value="-65536" />
+            <enum name="align" value="-65537" />
+        </attr>
+        <attr name="fastFlowLayout_rowSpacing" format="enum|dimension">
+            <enum name="auto" value="-65536" />
+        </attr>
+        <attr name="fastFlowLayout_rtl" format="boolean" />
+        <attr name="fastFlowLayout_enableShrinkView" format="boolean" />
+        <attr name="fastFlowLayout_expandRows" format="integer" />
+        <attr name="fastFlowLayout_shrinkRows" format="integer" />
+        <attr name="fastFlowLayout_rowVerticalGravity" format="enum">
+            <enum name="auto" value="-65536" />
+            <enum name="top" value="0x30" />
+            <enum name="center" value="0x10" />
+            <enum name="bottom" value="0x50" />
+        </attr>
+        <attr name="android:gravity" />
+    </declare-styleable>
+</resources>
