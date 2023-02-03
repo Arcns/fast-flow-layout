@@ -27,28 +27,40 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="12dp"
+            android:padding="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支持均匀分布自动间距" />
+
             <com.arc.fast.view.FastFlowLayout
                 android:id="@+id/flow1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_light"
                 app:fastFlowLayout_childSpacing="auto"
-                app:fastFlowLayout_minChildSpacing="12dp"
-                app:fastFlowLayout_rowSpacing="12dp" />
+                app:fastFlowLayout_minChildSpacing="8dp"
+                app:fastFlowLayout_rowSpacing="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="支持展开、收缩功能，并且可以约束展开时的行数与收缩时的行数" />
 
             <com.arc.fast.view.FastFlowLayout
                 android:id="@+id/flow2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
-                app:fastFlowLayout_childSpacing="12dp"
+                android:background="@android:color/holo_orange_light"
+                app:fastFlowLayout_childSpacing="8dp"
                 app:fastFlowLayout_expandRows="4"
-                app:fastFlowLayout_rowSpacing="12dp"
+                app:fastFlowLayout_rowSpacing="8dp"
                 app:fastFlowLayout_shrinkRows="2" />
 
         </LinearLayout>

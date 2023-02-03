@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         setLightSystemBar(true)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         val data = arrayListOf<String>()
-        for (i in 0..20) {
-            data.add("tag_$i")
+        for (i in 0..30) {
+            data.add("标签 $i")
         }
         binding.flow1.adapter = FastFlowAdapter(
             layoutRes = R.layout.layout_tag,

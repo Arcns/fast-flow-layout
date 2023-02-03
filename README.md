@@ -6,6 +6,8 @@
 
 > 感谢[nex3z/FlowLayout](https://github.com/nex3z/FlowLayout)，本项目是在该项目的基础上进行扩展开发。
 
+![集成效果](./image/flow_layout.jpg)
+
 #### 1.集成方式：
 
 ```
