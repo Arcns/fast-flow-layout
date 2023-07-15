@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <com.arc.fast.view.FastTextView
+        android:id="@+id/tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black_30"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:rounded_radius="36dp"
+        tools:text="测试" />
+</layout>
