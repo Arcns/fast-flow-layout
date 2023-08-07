@@ -1,6 +1,6 @@
 # fast-flow-layout
 
-[![](https://jitpack.io/v/Arcns/fast-layout-manager.svg)](https://jitpack.io/#Arcns/fast-layout-manager)
+[![](https://jitpack.io/v/Arcns/fast-flow-layout.svg)](https://jitpack.io/#Arcns/fast-flow-layout)
 
 > 一个优雅的Android的流布局，支持均匀分布自动间距，支持展开、收缩功能，并且可以约束展开时的行数与收缩时的行数。
 
