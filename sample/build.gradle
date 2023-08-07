@@ -68,9 +68,9 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     // fast-flow-layout
     implementation project(path: ':flow-layout')
-//    implementation 'com.gitee.arcns:fast-flow-layout:1.0.2'
+//    implementation 'com.github.Arcns:fast-flow-layout:1.0.2'
     // other
-    implementation 'com.gitee.arcns.arc-fast:rounded:1.18.3'
-    implementation 'com.gitee.arcns.arc-fast:text-view:1.18.3'
-    implementation 'com.gitee.arcns.arc-fast:immersive:1.18.3'
+    implementation 'com.github.Arcns.arc-fast:rounded:1.23.1'
+    implementation 'com.github.Arcns.arc-fast:text-view:1.23.1'
+    implementation 'com.github.Arcns.arc-fast:immersive:1.23.1'
 }
